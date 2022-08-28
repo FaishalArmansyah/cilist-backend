@@ -57,4 +57,4 @@ spec:
         - name: DB_DATABASE
           value: peopleproduction
         - name: DB_HOST
-          value: database-1-ikhsan.cprfeashmt9u.us-east-1.rds.amazonaws.com
+          value: http://rdshost
