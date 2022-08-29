@@ -55,6 +55,6 @@ spec:
               name: cilist-backend
               key: password
         - name: DB_DATABASE
-          value: peopleproduction
+          value: people_production
         - name: DB_HOST
-          value: http://rdshost
+          value: database-1.cir7gtvctrcn.ap-southeast-1.rds.amazonaws.com
