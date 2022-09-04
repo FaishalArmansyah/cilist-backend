@@ -56,4 +56,4 @@ spec:
         - name: DB_DATABASE
           value: people_staging
         - name: DB_HOST
-          value: database-1.cir7gtvctrcn.ap-southeast-1.rds.amazonaws.com
+          value: big-project.cir7gtvctrcn.ap-southeast-1.rds.amazonaws.com
