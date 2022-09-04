@@ -57,3 +57,7 @@ spec:
           value: people_staging
         - name: DB_HOST
           value: big-project.cir7gtvctrcn.ap-southeast-1.rds.amazonaws.com
+        - name: DATABASE_PORT
+          value: "3306"
+        - name: BASE_URL
+          value: "http://users-uat.smallproject.my.id"
