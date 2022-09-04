@@ -43,19 +43,19 @@ spec:
         ports:
         - containerPort: 5000
         env:
-        - name: DB_USERNAME
+        - name: DATABASE_USERNAME
           valueFrom:
             secretKeyRef:
               name: cilist-backend
               key: user
-        - name: DB_PASSWORD
+        - name: DATABASE_PASSWORD
           valueFrom:
             secretKeyRef:
               name: cilist-backend
               key: password
-        - name: DB_DATABASE
+        - name: DATABASE_DATABASE
           value: people_staging
-        - name: DB_HOST
+        - name: DATABASE_HOST
           value: big-project.cir7gtvctrcn.ap-southeast-1.rds.amazonaws.com
         - name: DATABASE_PORT
           value: "3306"
